@@ -311,6 +311,9 @@ ul {
 .option-list-section-four:hover .animation-text .animation-paragraf {
     transform: translateY(0%);
 }
+.option-list-section-four:focus .animation-text .animation-paragraf {
+    transform: translateY(0%);
+}
 .animation-text {
     position: relative;
     overflow: hidden;
