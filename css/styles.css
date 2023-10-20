@@ -308,7 +308,7 @@ ul {
     transform: translateY(100%);
     margin: 0;
 }
-.animation-text:hover .animation-paragraf {
+.option-list-section-four:hover .animation-text .animation-paragraf {
     transform: translateY(0%);
 }
 .animation-text {
