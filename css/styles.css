@@ -72,6 +72,8 @@ ul {
     fill: white;
 }
 
+/*///////////header///////////*/
+
 /*///////////section one/////////////*/
 
 .section-one {
@@ -115,5 +117,89 @@ ul {
     text-transform: capitalize;
     color:#FFF;
     width: 288px;
+    margin-top: 0;
     margin-bottom: 72px;
  }
+
+ /*///////////section one/////////////*/
+
+/*/////////section two///////*/
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-strategy {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    justify-content: center;
+}
+.box-section-two {
+    display: flex;
+    padding: 96px 0;
+}
+.title-list-strategy {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize; 
+}
+.paragraf-list-strategy {
+    margin: 0;
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.32px; 
+}
+
+/*/////////section two///////*/
+
+/*/////////section three///////*/
+
+.section-three {
+    background-color: #F4F4FD;
+}
+.box-section-three {
+    padding: 96px 0;
+}
+.title-section-three {
+    margin-bottom: 72px;
+    text-align: center;
+    margin-top: 0;
+}
+.list-our-team {
+    margin-top: 0;
+    padding: 0 16px;
+    margin-bottom: 0;
+}
+.option-list-our-team {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center; 
+    background-color: #FFF;
+    padding-bottom: 32px;
+}
+.list-icon-contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.title-box-our-team {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.paragraf-list-our-team {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
