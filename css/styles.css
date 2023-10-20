@@ -163,6 +163,10 @@ ul {
 
 /*/////////section three///////*/
 
+.option-list-our-team img {
+    width: 100%;
+    height: 100%;
+}
 .section-three {
     background-color: #F4F4FD;
 }
