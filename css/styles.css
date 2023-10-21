@@ -71,7 +71,6 @@ ul {
     background-color: #4D5AE5;
     fill: white;
 }
-
 /*///////////header///////////*/
 
 /*///////////section one/////////////*/
@@ -756,6 +755,7 @@ ul {
         display: flex;
         flex-direction: row;
         gap: 40px;
+        margin: 0;
     }
     .header-hidden-contacts {
         display: flex;
@@ -763,6 +763,7 @@ ul {
         gap: 12px;
         font-size: 12px;
         padding: 16px 0;
+        margin: 0;
     }
     .title-main {
         width: 496px;
@@ -844,6 +845,7 @@ ul {
     }
     .paragraf-option-list-footer {
         margin: 0;
+        margin-bottom: 16px;
     }
     .option-hidden-contacts {
         color: var(--SLATE, #434455);
@@ -866,5 +868,21 @@ ul {
     .option-hidden-menu:hover,
     .option-hidden-menu:focus {
         color: var(--OCEAN, #404BBF);
+    }
+    .header-hidden-menu {
+        position: relative;
+    }
+    .one-studio {
+        color: #404bbf;
+    }
+    .one-studio::after {
+        content: "";
+        position: absolute;
+        left: 40px;
+        bottom: -22px;
+        height: 4px;
+        background-color: #404bbf;
+        border-radius: 2px;
+        width: 48px;
     }
 }
