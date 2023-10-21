@@ -1102,9 +1102,8 @@ ul {
         top: 55%;
     }
 }
-
 @media (min-resolution: 192dpi) {
     .section-one {
-      background-image: url('../images/office@2x.jpg');
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/office@2x.jpg');
     }
 } 
