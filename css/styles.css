@@ -940,7 +940,7 @@ img {
 
     .section-one {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/office.jpg');
-        max-width: 1158px;
+        max-width: 1440px;
     }
     
     .icon-menu-header {
@@ -1015,11 +1015,6 @@ img {
         column-gap: 24px;
         row-gap: 72px;
     }
-    .container {
-        max-width: 768px;
-        padding: 0 15px;
-        margin: 0 auto;
-    }
     .foot-box {
         margin-right: 0;
     }
@@ -1084,8 +1079,7 @@ img {
     }
     .container {
         max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px;
         margin: 0 auto;
     }
     .section-one {
